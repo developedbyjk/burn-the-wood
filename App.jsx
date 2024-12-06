@@ -46,7 +46,7 @@ export default function App() {
 
 	return (
 		<>
-		<p id="info">Take the Torch and move over the Wood to burn it</p>
+		<p id="info">Clik the Torch and move over the Wood to burn it</p>
 		<div 
 			onMouseUp={toggleTorch}
 			className={`wrapper ${torchEquipped && "relative no-cursor"}`}
